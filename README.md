@@ -66,3 +66,6 @@ Any pull request opened against `main` will automatically generate a **preview d
 ## Related Projects
 
 - **Work Party Notifier** (`gsp-events.meadowist.dev`) — Cloudflare Worker app that monitors the Green City Partnerships calendar and emails subscribers when new volunteer events match their keywords.
+
+## Coming Soon
+- GSP Forest Steward bulletin board
