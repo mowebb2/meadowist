@@ -15,8 +15,9 @@ Meadowist is a small website that hosts other projects. The overall theme of the
 - `gsp-events.png` — 813x737 PNG image (RGBA) — Work Party Notifier project logo
 
 ## Status
-- **Repository state:** No commits yet (`main` branch initialized but empty of commits)
+- **Repository state:** Active — initial commit pushed to `origin/main`
 - **Project state:** Active — home page (index.html + style.css) created with the mission statement, logo, and a project card linking to gsp-events.meadowist.dev
+- **Hosting:** Cloudflare Pages via GitHub integration (push to `main` triggers production deploy)
 - **Purpose:** Host and showcase meadowist projects focused on Seattle's urban forests and parklands
 
 ## Featured Projects

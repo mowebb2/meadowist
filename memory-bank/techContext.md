@@ -2,7 +2,7 @@
 
 ## Technology Stack
 - **Frontend:** Plain static HTML + CSS (zero dependencies, no framework, no build step)
-- **Hosting:** TBD (e.g., Cloudflare Pages, GitHub Pages, or similar static host for `meadowist.dev`)
+- **Hosting:** Cloudflare Pages (deployed via GitHub integration — push to `main` triggers production deploy)
 
 ## Development Environment
 - **OS:** macOS Big Sur
@@ -14,11 +14,15 @@
 - **VCS:** Git (GitHub)
 - **Remote:** `https://github.com/mowebb2/meadowist.git` (origin)
 - **Default branch:** `main`
-- **Repository status:** No commits yet
+- **Repository status:** Active — initial commit pushed to `origin/main`
 
 ## Site Files
 - `index.html` — home page (logo, mission statement, Projects section)
 - `style.css` — green nature theme (responsive, matches gsp-events design language)
+- `_headers` — Cloudflare Pages custom headers (security + caching)
+- `_redirects` — Cloudflare Pages redirects
+- `.gitignore` — ignores local Cloudflare/editor/env files
+- `README.md` — deployment instructions for Cloudflare Pages via GitHub integration
 
 ## Available Tooling
 The following tools are available on the development machine and may be used for the project:

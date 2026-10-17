@@ -1,0 +1,19 @@
+# Cloudflare Pages
+.wrangler/
+.dev.vars
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example

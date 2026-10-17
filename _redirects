@@ -1,0 +1,3 @@
+# Redirect root to index.html (handled automatically by Cloudflare Pages)
+# Add any future redirects here, e.g.:
+# /old-path  /new-path  301
